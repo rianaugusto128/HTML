@@ -1,0 +1,88 @@
+/* Reset e Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Container do Menu */
+.menu-container {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Barra de Menu */
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #9e0101; /* vermelho escuro */
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.login-box {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    width: 380px;
+    text-align: center;
+}
+
+.login-box input,
+.login-box button {
+    width: 100%; /* todos com a mesma largura */
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* evita quebra no alinhamento */
+}
+
+.login-box button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #0056b3;
+}
+.mensagem {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
