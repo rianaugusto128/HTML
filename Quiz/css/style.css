@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+    background: aqua;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.card {
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    font-size: 28px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 15px 18px;
+}
+
+.resp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resp button {
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 15px;
+}
