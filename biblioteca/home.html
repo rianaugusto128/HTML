@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="logo"><img src="image/unnamed.webp" alt="Biblioteca Zenith"></h1>
+        <div>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="livros.html">Livros</a>
+                <a href="">Sobre</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="slider-container">
+        <span id="slider-image1"></span>
+        <span id="slider-image2"></span>
+        <span id="slider-image3"></span>
+        <span id="slider-image4"></span>
+        <div class="image-container">
+            <img src="https://media.gettyimages.com/id/1398466630/pt/foto/bearded-man-comfortably-sitting-on-a-coach-reading-a-book-and-holding-his-dog.jpg?s=2048x2048&w=gi&k=20&c=6BmCBadlwbHg2Vj8kQS9eQ5x-0VagGgSLiI1OTCDAF4="
+                class="slider-image">
+            <img src="https://static8.depositphotos.com/1258191/919/i/950/depositphotos_9192710-stock-photo-portrait-of-a-young-woman.jpg"
+                class="slider-image">
+            <img src="https://st4.depositphotos.com/1037987/20077/i/1600/depositphotos_200771354-stock-photo-young-father-daughter-reading-book.jpg"
+                class="slider-image">
+            <img src="https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20130417-stock-photo-male-african-university-student-reading.jpg"
+                class="slider-image">
+        </div>
+        <div class="button-container">
+            <a href="#slider-image1" class="slider-button"></a>
+            <a href="#slider-image2" class="slider-button"></a>
+            <a href="#slider-image3" class="slider-button"></a>
+            <a href="#slider-image4" class="slider-button"></a>
+        </div>
+    </div>
+
+    <section class="search-section">
+        <div class="search-container">
+            <h2>Encontre seu livro favorito</h2>
+            <div class="box">
+                <input type="text" id="busca" placeholder="Digite o nome do livro...">
+                <button class="search-button">Pesquisar</button>
+            </div>
+            <div id="search-result" class="search-result"></div>
+        </div>
+    </section>
+
+    <section class="books-section">
+        <h2 class="section-title">Livros Recomendados da Semana</h2>
+        <div class="books-grid">
+            <div class="book-card">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_621583-MLB45867580597_052021-O.webp" alt="1984">
+                <div class="book-info">
+                    <div class="book-title">1984</div>
+                    <div class="book-author">George Orwell</div>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/91g9Dvtf+jL._SY425_.jpg" alt="It">
+                <div class="book-info">
+                    <div class="book-title">It a Coisa</div>
+                    <div class="book-author">Stephen King</div>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="https://rollingstone.com.br/wp-content/uploads/2023/02/jantar-secreto.jpg"
+                    alt="Jantar Secreto">
+                <div class="book-info">
+                    <div class="book-title">Jantar Secreto</div>
+                    <div class="book-author">Raphael Montes</div>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="https://rollingstone.com.br/wp-content/uploads/1susbro44.jpg" alt="A paciente silenciosa">
+                <div class="book-info">
+                    <div class="book-title">A Paciente Silenciosa</div>
+                    <div class="book-author">Alex Michelides</div>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="https://mega.ibxk.com.br/2023/01/13/a-13170145676376.jpg?ims=fit-in/800x500"
+                    alt="Sombras da Noite">
+                <div class="book-info">
+                    <div class="book-title">Sombras da Noite</div>
+                    <div class="book-author">Stephen King</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories-section">
+        <h2 class="section-title">Categorias de Livros</h2>
+        <div class="categories-grid">
+            <div class="category-card">
+                <a href="livros.html?filtro=romance">Romance</a>
+            </div>
+            <div class="category-card">
+                <a href="livros.html?filtro=acao">Ação</a>
+            </div>
+            <div class="category-card">
+                <a href="livros.html?filtro=terror">Terror</a>
+            </div>
+            <div class="category-card">
+                <a href="livros.html?filtro=suspense">Suspense</a>
+            </div>
+            <div class="category-card">
+                <a href="livros.html?filtro=aventura">Aventura</a>
+            </div>
+            <div class="category-card">
+                <a href="livros.html?filtro=comedia">Comédia</a>
+            </div>
+            <div class="category-card">
+                <a href="livros.html?filtro=fantasia">Fantasia</a>
+            </div>
+            <div class="category-card">
+                <a href="livros.html?filtro=policial">Policial</a>
+            </div>
+            <div class="category-card">
+                <a href="livros.html?filtro=drama">Drama</a>
+            </div>
+            <div class="category-card">
+                <a href="livros.html?filtro=biografia">Biografia</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p><b>Biblioteca Zenith &copy; 2025 - Todos os direitos reservados</b></p>
+        <div>
+            <a href="" target="_blank" rel="">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
